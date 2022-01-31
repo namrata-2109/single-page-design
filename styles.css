@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+.layout_screen{
+    border: 2px solid rgb(255, 252, 252);
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box_one{
+    /* width: 300px; */
+    border: 2px solid rgb(255, 252, 252);
+    background-color: rgb(123, 224, 174);
+    /* height: auto;
+    box-sizing: border-box;
+    border-color: black; */
+    height: 423px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.nav_whole{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px;
+    padding-top: 20px;
+}
+.nav_right{
+  display: flex;
+
+}
+.drop_select{
+    background-color: rgb(123, 224, 174);
+    border: 0ch;
+}
+.first_btn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+}
+.one{
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 150px;
+    font-size: large;
+}
+.two{
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+    padding: 10px;
+}
+
+.second{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+/* .row::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(65, 68, 68);
+}
+h2{
+    text-align: center;
+}
+.img_top{
+    height: 300px;
+    width: 350px;
+}
+img{
+    height: 280px;
+    width: 280px;
+}
+.center_text{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-1{width: 350px;}
+.col-2{width: 350px;}
+.col-3{width: 350px;}
+
+@media only screen and (max-width:768px){
+    [class*="col-1"]{
+        width: 100%;
+    }
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image_left{
+    padding-left:150px;
+    width:800px;
+    /* height: 1000px; */
+}
+.text_right{
+    padding-top: 360px;
+    width: 30%;
+    padding-right: 100px;
+    /* width: 50%; */
+}
+.box-three{
+    background: rgb(174, 226, 209);
+    padding-bottom: 40px;
+}
+.three_head{
+    text-align: center;
+    padding-top: 40px;
+}
+.container{
+width: 20em;
+
+}
+.iconss{
+ width: 90px;
+ height: 90px;
+}
+
+.three_middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20em;
+   
+}
+.fas{
+    color: rgb(187, 207, 7);
+   
+}
+.far{
+    color: rgb(187, 207, 7);
+   
+}
+.three_foot{
+    text-align: center;
+}
+.arrow{
+    color: black;
+}
+.box-four{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 243, 239);
+    padding: 50px;
+}
+.four_left{
+    margin-left: 100px;
+    width: 20em;
+}
+.four_right{
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.four_box_para{
+    float: left;
+    text-align: left;
+}
+.fab{
+    padding: 25px;
+   
+}
+.fab1{
+    color: rgb(165, 42, 42);
+}
+.fab2{
+    color: blue;
+}
+.fab3{
+    color: red;
+}
+.fab4{
+    color: rgb(31, 28, 28);
+}
+.fab5{
+    color: blue;
+}
+.fab6{
+    color: rgb(11, 165, 165);
+}
